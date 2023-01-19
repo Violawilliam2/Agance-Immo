@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Agence Immobilière HBJ</title>
+</head>
+<body>
+    <Header class="header">
+        <a href="#" class="logo"><img src="images/Logo.png" alt="logo"></a>
+
+        <nav class="navbar">
+            <a href="#home">acceuil</a>
+            <a href="#services">services</a>
+            <a href="#featured">featured</a>
+            <a href="#contact">contact</a>
+
+            <img src="images/moon.png" alt="" id="moond">
+           
+        </nav>
+
+        <div class="icons">
+            <div id="menu-bars" class="fas fa-bars"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" id="login-btn" class="fas fa-user"></a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Se connecter</h3>
+            <input type="email" placeholder="entrer votre email" class="box">
+            <input type="password" placeholder="entrer votre mot de passe" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">se souvenir de moi</label>
+            </div>
+            <input type="submit" value="login now" class="btn">
+            <p>mot de passe oublié? <a href="#">cliquez ici</a></p>
+            <p>vous n'avez pas un compte <a href="inscription.html">créer un compte</a></p>
+        </form>
+    </Header>
+
+    <section class="home" id="home">
+
+        <form action="" method="get">
+            <h3>Trouver votre maison idéale</h3>
+
+            <div class="buttond-container">
+                <select name="" class="btn">
+                    <option value="" disabled hidden selected>Type de transaction</option>
+                    <option value="">Tout</option>
+                    <option value="">Vente</option>
+                    <option value="">Location</option>
+                </select>
+    
+            </div>
+
+            <div class="inputBox">
+                <select name="" id="">
+                    <option value="" disabled hidden selected>Quartier</option>
+                    <option value="">2000m</option>
+                    <option value="">10000</option>
+                    <option value="">3456</option>
+                    <option value="">4000</option>
+                    <option value="">100</option>
+                </select>
+                <select name="" id="">
+                    <option value="" disabled hidden selected>ville</option>
+                    <option >Tanger</option>
+                    <option >Casablanca</option>
+                    <option >Rabat</option>
+                    <option >kenitra</option>
+                    <option >marrakech</option>
+                </select>
+               
+                <input type="number" placeholder="prix min" id="number" min="">
+                <input type="number" placeholder="prix max" id="number" max="">
+
+
+                <select name="" id="">
+                    <option value="" disabled hidden selected>Type de propriété</option>
+                    <option value="home">maisons et villas</option>
+                    <option value="appart">appartements</option>
+                    <option value="bureau">bureaux</option>
+                    <option value="mag">Magasins Et Locaux Industriels</option>
+                    <option value="terrain">terrains</option>
+
+                </select>
+                
+                
+                <select name="" id="">
+                    <option value="" disabled hidden selected>Chambres</option>
+                    <option value="1 bedroom">1 chambre</option>
+                    <option value="2 bedrooms">2 chambres</option>
+                    <option value="3 bedrooms">3 chambres</option>
+                    <option value="4 bedrooms">4 chambres</option>
+                    <option value="5 bedrooms">5 chambres</option>
+                </select>
+                <select name="" id="">
+                    <option value="" disabled hidden selected>Salle de bain</option>
+                    <option value="1 bathroom">1 </option>
+                    <option value="2 bathrooms">2</option>
+                    <option value="3 bathrooms">3</option>
+                    <option value="4 bathrooms">4</option>
+                    <option value="5 bathrooms">5</option>
+                </select>
+                <input type="number" placeholder="Surface" id="number" aria-placeholder="m" >
+            </div>
+
+            <input type="submit" value="Chercher" class="btn">
+        </form><br><br><br><br>
+
+       <div class="t">
+        <table class="table">
+            <thead>
+                <th>Vente</th>
+                <th>Location</th>
+                <th>Quartier</th>
+                <th>ville</th>
+                <th>Prix min</th>
+                <th>Prix max</th>
+                <th>Type de propriété</th>
+                <th>Chambres</th>
+                <th>Salle de bain</th>
+                <th>Surface</th>
+                
+            </thead> 
+            <tbody>
+                <tr>
+                    <td><img src="" height="100" alt=""></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                    
+                </tr>
+            </tbody>
+        </table>
+       </div>
+    </form>
+
+    </section>
+
+<section class="services" id="services">
+    <h1 class="heading"> Nos <span>services</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/s-1.png" alt="">
+            <h3>Achat</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores est enim aut voluptatum dolorem? Aut minus modi fuga! Quaerat, laborum laudantium! Nesciunt
+             error consectetur voluptates nobis nam cupiditate animi aspernatur.</p>
+             <a href="#" class="btn">Plus</a>
+        </div>
+        <div class="box">
+            <img src="images/s-2.png" alt="">
+            <h3>Location</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores est enim aut voluptatum dolorem? Aut minus modi fuga! Quaerat, laborum laudantium! Nesciunt
+             error consectetur voluptates nobis nam cupiditate animi aspernatur.</p>
+             <a href="#" class="btn">Plus</a>
+        </div>
+        <div class="box">
+            <img src="images/s-3.png" alt="">
+            <h3>Vente</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores est enim aut voluptatum dolorem? Aut minus modi fuga! Quaerat, laborum laudantium! Nesciunt
+             error consectetur voluptates nobis nam cupiditate animi aspernatur.</p>
+             <a href="#" class="btn">Plus</a>
+        </div>
+    </div>
+</section>
+
+<section class="featured" id="featured">
+    <h1 class="heading"><span>featured</span> propriétés</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image-container">
+                <img src="images/img-1.jpg" alt="">
+                <div class="info">
+                    <h3>Il y a 3 jours</h3>
+                    <h3>à louer</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>4</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>5000dh/mois</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>appartement moderne</h3>
+                    <p>Aida Villag, Tanger, Maroc - 45016784</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 m2</h3>
+                    <h3> <i class="fas fa-bed"></i> 3 chambres </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 salle de bain </h3>
+                </div>
+                <div class="buttons">
+                    
+                    <a href="#" class="btn"> détails</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="images/img-2.jpg" alt="">
+                <div class="info">
+                    <h3>Il y a 6 jours</h3>
+                    <h3>à vendre</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>7</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>500000dh/mois</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>appartement moderne</h3>
+                    <p>Aida Villag, Tanger, Maroc - 45016784</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 m2 </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 chambres </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 salle de bain </h3>
+                </div>
+                <div class="buttons">
+                    
+                    <a href="#" class="btn">détails</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="images/img-5.jpg" alt="">
+                <div class="info">
+                    <h3>Il y a 10 jours</h3>
+                    <h3>à louer</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>3</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>8</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>4000dh/mois</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>appartement moderne</h3>
+                    <p>Aida Villag, Tanger, Maroc - 45016784</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3000 m2 </h3>
+                    <h3> <i class="fas fa-bed"></i> 2 chambres</h3>
+                    <h3> <i class="fas fa-bath"></i> 1 salle de bain </h3>
+                </div>
+                <div class="buttons">
+                    
+                    <a href="#" class="btn">détails</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="images/img-6.jpg" alt="">
+                <div class="info">
+                    <h3>Il y a 4 jours</h3>
+                    <h3>à louer</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>4</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>3500dh/mois</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>appartement moderne</h3>
+                    <p>Aida Villag, Tanger, Maroc - 45016784</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3000 m2 </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 chambres</h3>
+                    <h3> <i class="fas fa-bath"></i> 2 salle de bain </h3>
+                </div>
+                <div class="buttons">
+                    
+                    <a href="#" class="btn">détails</a>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contactez</span>nous</h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <img src="images/icon-1.png" alt="">
+            <h3>Numéro de téléphone</h3>
+            <p>+212-665-633-123</p>
+            
+        </div>
+        <div class="icons">
+            <img src="images/icon-2.png" alt="">
+            <h3>addresse email </h3>
+            <p>ahmidomar@gmail.com</p>
+            <p>omarhassan@gmail.com</p>
+        </div>
+        <div class="icons">
+            <img src="images/icon-3.png" alt="">
+            <h3>Adresse officielle</h3>
+            <p> 1er étage N° 58، résidence achtar، 83 Rue du Mexique, Tangier 90000 شارع المكسيك، طنجة </p>  
+        </div>
+    </div>
+
+    <div class="row">
+        
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="nom et prénom">
+                <input type="text" placeholder="numéro de téléphone">
+            </div>
+            <div class="inputBox">
+                <input type="email" placeholder="email">
+                <input type="text" placeholder="sujet">
+            </div>
+            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Envoyer le message" class="btn">
+        </form>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.8119704567785!2d-5.8168821000000035!3d35.
+        7799949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+        1!3m3!1m2!1s0xd0c78ab7afa1345%3A0x24c0e022bd8fc503!2sHbj%20agence!5e0!3m2!1sen!2sma!4v1649287807590!5m2!1sen!2sma" width="600" height="450" style="border:0;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<section class="footer">
+
+    <div class="footer-container">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>ville disponible</h3>
+                <a href="#">Tanger</a>
+                <a href="#">Tétouan</a>
+                <a href="#">Rabat</a>
+                <a href="#">Casablanca</a>
+                <a href="#">Meknes</a>
+            </div>
+            <div class="box">
+                <h3>Lien rapide</h3>
+                <a href="#">acceuil</a>
+                <a href="#">services</a>
+                <a href="#">featured</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>lien supplémentaire</h3>
+                <a href="#">Mon compte</a>
+                <a href="#">Mes favoris</a>
+                <a href="#">ma liste</a>
+            </div>
+            <div class="box">
+                <h3>abonnez vous</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                
+                
+            </div>
+        </div> <br><br>
+            <div id="google_element"></div>
+            <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+            <script>
+    
+                function loadGoogleTranslate() {
+                     new google.translate.TranslateElement("google_element");
+                }
+            </script>
+      
+        
+</section>
+
+
+
+<script>
+    var moond = document.getElementById("moond");
+
+    moond.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            moond.src = "images/sun.png";
+        }else{
+            moond.src = "images/moon.png";
+        }
+    }
+</script>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Admin Dashboard</title>
+</head>
+<body class="bod">
+
+    <div class="sidebar">
+        <div class="logo-details">
+            <img src="images/lo.png" alt="" >
+            <span class="log-name">Agence HBJ</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">
+                    <i class="fas fa-th"></i>
+                    <span class="link-name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#containers">
+                    <i class="fas fa-archive"></i>
+                    <span class="link-name">Add Product</span>
+                </a>
+            </li>
+            <li>
+                <a href="#update">
+                    <i class="fas fa-list"></i>
+                    <span class="link-name">update_product</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="link-name">User</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-comment-alt"></i>
+                    <span class="link-name">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-heart"></i>
+                    <span class="link-name">Favorite</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="link-name">setting</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-sign-out"></i>
+                    <span class="link-name">Log out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="homi-section">
+        <nav>
+            <div class="sider-buton">
+                <i class="fas fa-bars siderBton"></i>
+                <span class="dashboard">Dashboard</span>
+            </div>
+
+            <div class="serch-box">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search" ></i>
+            </div>
+            
+            <div class="profile-deatails">
+               <img src="images/pic-1.png" alt="">
+                <span class="admin-name">Nomprenom</span>
+                <i class="fas fa-angle-down" ></i>
+            </div>
+        </nav>
+
+        <div class="home-conten">
+            <div class="overview-boxes">
+                <div class="bx">
+                    <div class="left-side">
+                        <div class="box-topic">Order list</div>
+                        <div class="number">40,876</div>
+                        <div class="indicator">
+                            <i class="fas fa-arrow-up"></i>
+                            <span class="text">Up from yesterday</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-shopping-cart " ></i>
+                </div>
+                <div class="bx">
+                    <div class="left-side">
+                        <div class="box-topic">Total sales</div>
+                        <div class="number">4760,876</div>
+                        <div class="indicator">
+                            <i class="fas fa-arrow-up"></i>
+                            <span class="text">Up from yesterday</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-cart-plus cart two" ></i>
+                </div>
+                <div class="bx">
+                    <div class="left-side">
+                        <div class="box-topic">Total PROFIT</div>
+                        <div class="number">98,876</div>
+                        <div class="indicator">
+                            <i class="fas fa-arrow-up"></i>
+                            <span class="text">Up from yesterday</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-chart-line  cart three" ></i>
+                </div>
+                <div class="bx">
+                    <div class="left-side">
+                        <div class="box-topic">Total PROFIT</div>
+                        <div class="number">98,876</div>
+                        <div class="indicator">
+                            <i class="fas fa-arrow-down down"></i>
+                            <span class="text">Up from yesterday</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-chart-pie   cart four" ></i>
+                </div>
+            </div>
+            <div class="sales-boxes">
+                <div class="recent-sale box">
+                    <div class="title">Recent sales</div>
+                    <div class="sales-details">
+                        <ul class="details">
+                            <li class="topic">Date</li>
+                            <li><a href="#">02 Jan 2022</a></li>
+                            <li><a href="#">02 Jan 2022</a></li>
+                            <li><a href="#">02 Jan 2022</a></li>
+                            <li><a href="#">02 Jan 2022</a></li>
+                            <li><a href="#">02 Jan 2022</a></li>
+                            <li><a href="#">02 Jan 2022</a></li>
+                        </ul>
+                        <ul class="details">
+                            <li class="topic">CUstommers</li>
+                            <li><a href="#">omer</a></li>
+                            <li><a href="#">khalid</a></li>
+                            <li><a href="#">hind</a></li>
+                            <li><a href="#">hasan</a></li>
+                            <li><a href="#">fati</a></li>
+                            <li><a href="#">tom</a></li>
+                        </ul>
+                        <ul class="details">
+                            <li class="topic">Sales</li>
+                            <li><a href="#">sell</a></li>
+                            <li><a href="#">pending</a></li>
+                            <li><a href="#">rent</a></li>
+                            <li><a href="#">rent</a></li>
+                            <li><a href="#">saled</a></li>
+                            <li><a href="#">selled</a></li>
+                        </ul>
+                        <ul class="details">
+                            <li class="topic">Total</li>
+                            <li><a href="#">1000</a></li>
+                            <li><a href="#">20000</a></li>
+                            <li><a href="#">3000</a></li>
+                            <li><a href="#">4000</a></li>
+                            <li><a href="#">5000</a></li>
+                            <li><a href="#">6000</a></li>
+                        </ul>
+                    </div>
+                    <div class="button">
+                        <a href="#">See all</a>
+                       
+                    </div>
+                </div>
+                <div class="top-sales box">
+                    <div class="title">TOP selling products</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/img-5.jpg" alt="">
+                                <span class="product-name">Modern house</span>
+                            </a>
+                            <span class="price">2000dh</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/img-1.jpg" alt="">
+                                <span class="product-name">offic</span>
+                            </a>
+                            <span class="price">3000dh</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/img-3.jpg" alt="">
+                                <span class="product-name">villa</span>
+                            </a>
+                            <span class="price">4000dh</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/img-6.jpg" alt="">
+                                <span class="product-name">house</span>
+                            </a>
+                            <span class="price">5000dh</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/img-2.jpg" alt="">
+                                <span class="product-name">Appertment</span>
+                            </a>
+                            <span class="price">6000dh</span>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="containers" id="containers">
+            <div class="admin-product-form-container">
+                <form action="" method="post">
+                    <h3>add new product</h3>
+                    <input type="file" accept="image/png, image/jpeg, image/jpg" name="product_image" class="boxi">
+                    <input type="text" placeholder="enter the product titer" name="product_titer" class="boxi">
+                    <input type="text" placeholder="enter the product adresse" name="product_adresse" class="boxi">
+                    <select name="product_ville" class="boxi">
+                        <option value="" disabled hidden selected>ville</option>
+                        <option >Tanger</option>
+                        <option >Casablanca</option>
+                        <option >Rabat</option>
+                        <option >kenitra</option>
+                        <option >marrakech</option>
+                    </select>
+
+                    <select name="product_quartier" class="boxi">
+                        <option value="" disabled hidden selected>Quartier</option>
+                        <option value="">2000m</option>
+                        <option value="">10000</option>
+                        <option value="">3456</option>
+                        <option value="">4000</option>
+                        <option value="">100</option>
+                    </select>
+                    <select name="product-type" class="boxi">
+                        <option value="" disabled hidden selected>Type de propriété</option>
+                        <option value="home">maisons et villas</option>
+                        <option value="appart">appartements</option>
+                        <option value="bureau">bureaux</option>
+                        <option value="mag">Magasins Et Locaux Industriels</option>
+                        <option value="terrain">terrains</option>
+    
+                    </select>
+                    <input type="number" placeholder="enter the product nomber_piece" name="product_nomber_piece" class="boxi">
+                    <input type="number" placeholder="enter the product surface_habitable" name="surface_habitable" class="boxi">
+                    <select name="product-objectif_gestion" class="boxi">
+                        <option value="" disabled hidden selected>Objectif gestion</option>
+                        <option value="">à louer</option>
+                        <option value="">à vendre</option>
+                    </select>
+                    <input type="number" placeholder="enter the product prix" name="product_prix" class="boxi">
+                    <input type="submit" class="btion" name="add_product" value="add product">
+                </form>
+            </div>
+        </div>
+    
+        <div class="product-display">
+            <table class="product-display-table">
+                <thead>
+                    <tr>
+                        <th>product image</th>
+                        <th>product titer</th>
+                        <th>product quartier</th>
+                        <th>product adresse</th>
+                        <th>product ville</th>
+                        <th>product type_log</th>
+                        <th>product nomber_piece</th>
+                        <th>product surface_habitable</th>
+                        <th>product objectif_gestion</th>
+                        <th>product prix</th>
+                        <th>action</th>
+                    </tr>
+                </thead>
+    
+                <tr>
+                    <td><img src="" height="100" alt=""></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="index.html" class="btion"> <i class="fas fa-edit"></i> edit</a>
+                        <a href="admin.html" class="btion"> <i class="fas fa-trash-alt"></i> delete</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="containers" id="update">
+            <div class="admin-product-form-container">
+                <form action="" method="post">
+                    <h3>update the product</h3>
+                    <input type="file" accept="image/png, image/jpeg, image/jpg" name="product_image" class="boxi">
+                    <input type="text" placeholder="enter the product titer" name="product_titer" class="boxi">
+                    <input type="text" placeholder="enter the product adresse" name="product_adresse" class="boxi">
+                    <select name="product_ville" class="boxi">
+                        <option value="" disabled hidden selected>ville</option>
+                        <option >Tanger</option>
+                        <option >Casablanca</option>
+                        <option >Rabat</option>
+                        <option >kenitra</option>
+                        <option >marrakech</option>
+                    </select>
+                    <select name="product_quartier" class="boxi">
+                        <option value="" disabled hidden selected>Quartier</option>
+                        <option value="">2000m</option>
+                        <option value="">10000</option>
+                        <option value="">3456</option>
+                        <option value="">4000</option>
+                        <option value="">100</option>
+                    </select>
+                    <select name="product-type" class="boxi">
+                        <option value="" disabled hidden selected>Type de propriété</option>
+                        <option value="home">maisons et villas</option>
+                        <option value="appart">appartements</option>
+                        <option value="bureau">bureaux</option>
+                        <option value="mag">Magasins Et Locaux Industriels</option>
+                        <option value="terrain">terrains</option>
+    
+                    </select>
+                    <input type="number" placeholder="enter the product nomber_piece" name="product_nomber_piece" class="boxi">
+                    <input type="number" placeholder="enter the product surface_habitable" name="surface_habitable" class="boxi">
+                    <select name="product-objectif_gestion" class="boxi">
+                        <option value="" disabled hidden selected>Objectif gestion</option>
+                        <option value="">à louer</option>
+                        <option value="">à vendre</option>
+                    </select>
+                    <input type="number" placeholder="enter the product prix" name="product_prix" class="boxi">
+                    <input type="submit" class="btion" name="update_product" value="update product">
+                    <a href="admin.html" class="btion">go back</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    
+document.querySelector('.siderBton').onclick =() => {
+    sidebar.classList.toggle('active');
+    siderBton.classList.toggle('active');
+
+
+}
+</script>
+
+
+<script src="script.js"></script>
+</body>
+</html>
